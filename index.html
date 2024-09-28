@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend 2 || Contest 2 || Sept 24</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrappper">
+        <div class="form-wrapper">
+            <form method="post">
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="Example@email.com" id="email"/>
+                    <p class="validation-msg" id="email-validation">Make sure email is more than 3 characters and has @ and a .</p>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" class="form-control" placeholder="Your Password" id="password"/>
+                    <p class="validation-msg" id="password-validation">Make sure password is more than 8 characters.</p>
+                </div>
+                <p class="success-msg" id="success-validation">All good to go!</p>
+                <button type="submit" id="form-submit" class="btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
